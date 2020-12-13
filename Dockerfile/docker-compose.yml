@@ -1,0 +1,7 @@
+version: '3'
+services:
+  front:
+    container_name: front
+    image: front
+    ports:
+      - "9001:80"
