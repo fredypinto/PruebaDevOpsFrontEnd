@@ -21,7 +21,7 @@ steps:
       workingDir: $(System.DefaultWorkingDirectory)
       verbose: false
   - task: PowerShell@2
-    displayName: ng build
+    displayName: ng build --base-href="/website"
     inputs:
       targetType: inline
       script: >
